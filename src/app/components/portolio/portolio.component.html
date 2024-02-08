@@ -1,0 +1,89 @@
+<section >
+    <div class="container  text-center mb-3 ">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center align-items-center">
+                <div>
+
+                    <h1 class="text-black mt-5 fw-bold">PORTFOLIO COMPONENT</h1>
+                    <div class="line-1 "></div>
+                    <i class="fa-solid fa-star text-black"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mt-4  " data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="imageClick('../assets/image/poert1.png')">
+                <div class="item ">
+                    <img src="../assets/image/poert1.png" class="w-100  " alt=""  >
+                    <div class="layer">
+                        <i class=" text-white  fa-solid fa-plus fa-6x modal-dialog modal-dialog-centered " ></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="imageClick('../assets/image/port2.png')">
+                <div class="item">
+                    <img src="../assets/image/port2.png" class="w-100" alt="">
+                    <div class="layer">
+                        <i class=" text-white fa-solid fa-plus fa-6x" ></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="imageClick('../assets/image/port3.png')">
+                <div class="item">
+                    <img src="../assets/image/port3.png" class="w-100" alt="">
+                    <div class="layer">
+                        <i class=" text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="imageClick('../assets/image/poert1.png')">
+                <div class="item">
+                    <img src="../assets/image/poert1.png" class="w-100" alt="">
+                    <div class="layer">
+                        <i class=" text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="imageClick('../assets/image/port2.png')">
+                <div class="item">
+                    <img src="../assets/image/port2.png" class="w-100" alt="">
+                    <div class="layer">
+                        <i class=" text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="imageClick('../assets/image/port3.png')">
+                <div class="item">
+                    <img src="../assets/image/port3.png" class="w-100" alt="">
+                    <div class="layer">
+                        <i class=" text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- Button trigger modal -->
+
+        <!-- Modal -->
+        <div class="modal fade mt-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img [src]="ImagSrc"  class="w-100" alt="">
+
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,29 @@
+.bg-col {
+    background-color: #2C3E50;
+
+}
+
+.pill {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.backround {
+    background-color: #1A252F;
+}
+
+.footer {
+    /* border: 1px solid red; */
+    /* position: absolute; */
+     /* left: 0%;
+    right: 0%;
+    bottom: 0px; */
+}

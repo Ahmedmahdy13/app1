@@ -1,0 +1,25 @@
+.line-1::after{
+    content: "";
+    background-color: white;
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    margin-left: 22px;
+    margin-top: 10px;
+  
+  
+  }
+  .line-1::before{
+    content: "";
+    background-color: white;
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    margin-left: -103px;
+    margin-top: 10px;
+    /* display: block; */
+  } 
+.about{
+    background-color: #1ABC9C;
+    height: 100vh;
+  }

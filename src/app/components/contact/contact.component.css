@@ -1,0 +1,62 @@
+.line-1::after{
+  content: "";
+  background-color: #2C3E50;
+  width: 80px;
+  height: 4px;
+  position: absolute;
+  margin-left: 22px;
+  margin-top: 10px;
+
+
+}
+.line-1::before{
+  content: "";
+  background-color: #2C3E50;
+  width: 80px;
+  height: 4px;
+  position: absolute;
+  margin-left: -103px;
+  margin-top: 10px;
+} 
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+.btn{
+    background-color: #1ABC9C;
+}
+.white{
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 3rem;
+}
+.text-color{
+  color: #2C3E50;
+}
+
+.borderRed
+{
+  border:1px solid red;
+}
+
+::ng-deep .mdc-floating-label--float-above
+{
+  margin: 50px;
+ }
+ .formContactUs>div
+ {
+  margin-bottom: 20px;
+ }
+
